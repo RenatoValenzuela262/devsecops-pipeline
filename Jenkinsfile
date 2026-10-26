@@ -33,7 +33,7 @@ pipeline {
             }
         }
 
-        >>> PASO 5: descomenta la etapa SAST - Bandit
+        //>>> PASO 5: descomenta la etapa SAST - Bandit
         stage('SAST - Bandit') {                // SAST: revisa el código sin ejecutarlo
             steps {                             // lo que hace la etapa
                 sh '''
